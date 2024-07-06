@@ -525,13 +525,13 @@
         document.getElementById("left-arrow").onclick = function() {
             document.querySelector('.landing .image-index i.circle-two').style.color = 'var(--inactive-color)';
             document.querySelector('.landing .image-index i.circle-one').style.color = 'var(--secondary-color)';
-            document.querySelector('.landing').style.backgroundImage = "url('../Zero Project 2/images/landing 3.jpg')";
+            document.querySelector('.landing').style.backgroundImage = "url('./images/landing 3.jpg')";
             var width = window.innerWidth; 
 
             if (width <= 770) {
-                document.querySelector('.landing').style.backgroundImage = "url('../Zero Project 2/images/landing 4.jpg')";
+                document.querySelector('.landing').style.backgroundImage = "url('./images/landing 4.jpg')";
             } else {
-                document.querySelector('.landing').style.backgroundImage = "url('../Zero Project 2/images/landing 3.jpg')";
+                document.querySelector('.landing').style.backgroundImage = "url('./images/landing 3.jpg')";
             }
 
             isLeft = true;
@@ -543,9 +543,9 @@
             var width = window.innerWidth; 
 
             if (width <= 770) {
-                document.querySelector('.landing').style.backgroundImage = "url('../Zero Project 2/images/landing 2.jpg')";
+                document.querySelector('.landing').style.backgroundImage = "url('./images/landing 2.jpg')";
             } else {
-                document.querySelector('.landing').style.backgroundImage = "url('../Zero Project 2/images/landing 1.jpg')";
+                document.querySelector('.landing').style.backgroundImage = "url('./images/landing 1.jpg')";
             }
 
             isLeft = false;
@@ -556,15 +556,15 @@
             const width = window.innerWidth;
             if (!isLeft) {
                 if (width <= 770) {
-                    document.querySelector('.landing').style.backgroundImage = "url('../Zero Project 2/images/landing 2.jpg')";
+                    document.querySelector('.landing').style.backgroundImage = "url('./images/landing 2.jpg')";
                 } else {
-                    document.querySelector('.landing').style.backgroundImage = "url('../Zero Project 2/images/landing 1.jpg')";
+                    document.querySelector('.landing').style.backgroundImage = "url('./images/landing 1.jpg')";
                 }
             } else {
                 if (width <= 770) {
-                    document.querySelector('.landing').style.backgroundImage = "url('../Zero Project 2/images/landing 4.jpg')";
+                    document.querySelector('.landing').style.backgroundImage = "url('./images/landing 4.jpg')";
                 } else {
-                    document.querySelector('.landing').style.backgroundImage = "url('../Zero Project 2/images/landing 3.jpg')";
+                    document.querySelector('.landing').style.backgroundImage = "url('./images/landing 3.jpg')";
                 }
             }
                 
